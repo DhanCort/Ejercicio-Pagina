@@ -1,0 +1,95 @@
+
+#mainContainer{
+	display: flex;
+	width: 70%;
+	height: 500px;
+	background-color: orange;
+}
+
+#aside{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 30%;
+	height: 100%;
+}
+
+#data{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 60%;
+	height: 100%;
+
+}
+
+a{
+	text-decoration: none;
+	text-align: center;
+	border: 1px solid blue;
+	flex-basis: 100%;
+	color: black;
+	font-weight: bold;
+}
+
+ul{
+	list-style: none;
+	flex-basis: 100%;
+}
+
+ul li{
+	list-style: none;
+}
+
+p{
+	height: 15px;
+
+}
+
+#nav ul{
+	display:flex;
+	justify-content: space-between;
+	height: 10%;
+}
+
+#nav ul a{
+	display:flex;
+	justify-content: space-between;
+	height: 10%;
+	border: none;
+}
+
+#info{
+	display: flex;
+	flex-direction: column;
+	height: 90%;
+}
+
+#nombre_Personaje{
+	height: 15%;
+}
+
+#datosPersonaje{
+	display: flex;
+	height: 80%;
+}
+
+#labels{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding-left: 10px;
+	width: 50%;
+	font-weight: bold;
+ }
+
+#parrafos_per{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding-left: 10px;
+	width: 50%;
+	color: gray;
+	font-weight: bold;
+	height: 100%;
+} 
